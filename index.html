@@ -4,7 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Kanban Board | Manage your work with ease</title>
   </head>
-  <body></body>
+  <body>
+    <header class="flex">
+      <h1>
+        Kanban Board
+      </h1>
+    </header>
+    <div class="error"></div>
+    <div class="flex flex-one board">
+      <div class="list drop" id="requested">
+        <div class="heading">
+          <h2 class="title">Requested</h2>
+          <div class="add">+</div>
+        </div>
+      </div>
+      <div class="list drop" id="in-progress">
+        <div class="heading">
+          <h2 class="title">In Progress</h2>
+        </div>
+      </div>
+      <div class="list drop" id="done">
+        <div class="heading">
+          <h2 class="title">Done</h2>
+        </div>
+      </div>
+    </div>
+    <footer class="flex">
+      <span>
+        &copy; 2021 Prince of Xanadu
+      </span>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
 </html>

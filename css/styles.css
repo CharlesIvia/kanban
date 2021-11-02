@@ -10,15 +10,15 @@ body {
   display: flex;
   flex-direction: column;
   font-family: Helvetica, Arial, sans-serif;
-  color: #f69c7e;
+  color: #212529;
 }
 
 header,
 footer {
-  background-color: #f05a28;
-  height: 60px;
+  background-color: #faa2c1;
+  height: 12.5vh;
   justify-content: center;
-  color: white;
+  color: #212529;
 }
 
 header h1 {
@@ -43,7 +43,7 @@ footer span {
   border: 1px solid #f69c7e;
   margin: 20px;
   border-radius: 10px;
-  color: #f69c7e;
+  color: #212529;
 }
 
 .list .title {
@@ -68,7 +68,6 @@ button {
 
 .heading {
   display: flex;
-  flex-wrap: wrap;
   border-bottom: 1px solid #f69c7e;
 }
 
@@ -77,8 +76,9 @@ button {
 }
 
 .heading .add {
-  font-size: 30px;
+  font-size: 25px;
   cursor: pointer;
+  margin: 12px 10px 5px 20px;
 }
 
 .error {

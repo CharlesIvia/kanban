@@ -38,6 +38,7 @@ let createItem = () => {
   //Input element
 
   let input = document.createElement("input");
+  input.autofocus = true;
   item.appendChild(input);
 
   //Save button

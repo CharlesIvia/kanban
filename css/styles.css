@@ -36,6 +36,9 @@ footer span {
 
 .flex-one {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .list {

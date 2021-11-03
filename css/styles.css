@@ -15,10 +15,14 @@ body {
 
 header,
 footer {
-  background-color: #faa2c1;
+  background-color: #ffa8a8;
   height: 12.5vh;
   justify-content: center;
   color: #212529;
+}
+
+footer {
+  font-size: 14px;
 }
 
 header h1 {
@@ -43,7 +47,7 @@ footer span {
 
 .list {
   width: 250px;
-  border: 1px solid #f69c7e;
+  border: 1px solid #ffa8a8;
   margin: 20px;
   border-radius: 10px;
   color: #212529;
@@ -56,13 +60,17 @@ footer span {
 
 .list .item {
   padding: 5px;
-  border-bottom: 1px solid #f69c7e;
+  border-bottom: 1px solid #ffa8a8;
 }
 
 .list input,
 button {
-  color: #f69c7e;
+  color: #ffa8a8;
   margin-left: 5px;
+}
+
+input {
+  outline: none;
 }
 
 .list button {
@@ -71,19 +79,26 @@ button {
 
 .heading {
   display: flex;
-  border-bottom: 1px solid #f69c7e;
+  border-bottom: 1px solid #ffa8a8;
 }
 
 .heading .title {
   width: 200px;
+  font-size: 18px;
 }
 
 .heading .add {
   font-size: 25px;
   cursor: pointer;
-  margin: 12px 10px 5px 20px;
+  margin: 8px 10px 5px 20px;
 }
 
+.column {
+  text-align: center;
+}
 .error {
   color: red;
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 14px;
 }

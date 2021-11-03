@@ -62,3 +62,17 @@ let createItem = () => {
 
   return item;
 };
+
+//Drop  and dragover event handler
+
+document.querySelectorAll(".drop").forEach((element) => {
+  element.addEventListener("drop", (e) => {
+    e.preventDefault();
+    const id = e.dataTransfer.getData("text");
+    e.target.appendChild(document.getElementById(id));
+  });
+
+  element.addEventListener("dragover", (e) => {
+    e.preventDefault();
+  });
+});
